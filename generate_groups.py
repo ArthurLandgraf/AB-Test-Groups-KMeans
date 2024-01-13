@@ -110,7 +110,7 @@ df_group = split_into_groups(df_cluster, num_clusters)
 # finally save the list of users with the original data for each feature
 # (before feature scaling) plus the clusters and groups
 df_group.to_csv(
-    '{}\\lista_clusterizada_bq.csv'.format(os.getcwd()), 
+    '{}\\your_csv_output.csv'.format(os.getcwd()), 
     sep=',', 
     decimal='.',
     index=False
